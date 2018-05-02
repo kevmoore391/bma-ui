@@ -1,0 +1,5 @@
+name: titan-ui2-seed
+instances: 1
+memory: 128M
+buildpack: staticfile_buildpack
+path: ./dist

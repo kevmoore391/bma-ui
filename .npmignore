@@ -1,0 +1,12 @@
+node_modules/
+pacts/
+src/
+test_results/
+e2e/
+logs/
+karma.conf.js
+protractor.conf.js
+protractor.grid.conf.js
+proxy.conf.js
+tsconfig.json
+tslint.json
