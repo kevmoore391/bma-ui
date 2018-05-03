@@ -6,21 +6,31 @@ import { CoreModule } from './core/core.module';
 import { ClarityModule } from 'clarity-angular/public_api';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { BmaModule } from './bma/bma.module';
+import { TribeModule } from './tribe/tribe.module';
+import { BmaComponent } from './bma/bma.component';
+import { TribeComponent } from './tribe/tribe.component';
 import { appRoutes } from './routes';
+
+const appRoutes2: Routes = [
+  { path: 'bma', component: BmaComponent },
+  { path: 'tribe',      component: TribeComponent }
+]
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule, 
     RouterModule.forRoot(appRoutes),
+    RouterModule.forRoot(appRoutes2),
     CoreModule,
     SharedModule,
-	BmaModule
+    BmaModule,
+    TribeModule
   ],
   providers: [],
   bootstrap: [ AppComponent ]

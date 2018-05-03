@@ -12,8 +12,19 @@
 
   <div class="content-container">
     <div class="content-area">
-      <bma-nav-options></bma-nav-options>
+      <router-outlet></router-outlet>  
     </div>
+    <nav class="sidenav" >
+      <section class="sidenav-content">
+          <section class="nav-group">
+              <label for="tabexample2">BMA Navigation</label>
+              <ul class="nav-list">
+                  <li><a routerLink="bma" class="nav-link">Applications</a></li>
+                  <li><a routerLink="tribe" class="nav-link">Tribe</a></li>
+              </ul>
+          </section>
+      </section>
+    </nav>
   </div>
 
 </clr-main-container>

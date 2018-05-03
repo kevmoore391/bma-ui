@@ -4,7 +4,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'bma-nav-options',
+  selector: 'router-outlet',
   templateUrl: './bma.component.html',
   styleUrls: ['./bma.component.scss']
 })

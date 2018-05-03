@@ -8,10 +8,7 @@ import { BmaComponent } from './bma.component';
   imports: [
   ],
   declarations: [
-	BmaComponent
-  ],
-  exports: [
-    BmaComponent
+	  BmaComponent
   ],
   providers: [
   ]
