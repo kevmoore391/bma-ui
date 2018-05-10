@@ -15,6 +15,7 @@ import { TribeComponent } from './tribe/tribe.component';
 import { appRoutes } from './routes';
 
 const appRoutes2: Routes = [
+  { path: '', component: BmaComponent },
   { path: 'bma', component: BmaComponent },
   { path: 'tribe',      component: TribeComponent }
 ]

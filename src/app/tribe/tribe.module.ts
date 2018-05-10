@@ -6,6 +6,9 @@ import { TribeComponent } from './tribe.component';
   imports: [
     CommonModule
   ],
-  declarations: [TribeComponent]
+  declarations: [TribeComponent],
+  exports: [
+	  TribeComponent
+  ],
 })
 export class TribeModule { }

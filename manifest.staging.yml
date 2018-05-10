@@ -1,5 +1,5 @@
-name: titan-ui2-seed
+name: bma-app
 instances: 1
-memory: 128M
-buildpack: staticfile_buildpack
-path: /dist
+memory: 30M
+buildpack: dicf_staticfile_buildpack_latest
+path: ./src

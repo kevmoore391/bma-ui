@@ -12,19 +12,31 @@
 
   <div class="content-container">
     <div class="content-area">
-      <router-outlet></router-outlet>  
+      <!--<app-bma></app-bma>   -->
+      <router-outlet></router-outlet> 
     </div>
-    <nav class="sidenav" >
+   <!-- <nav class="sidenav" >
       <section class="sidenav-content">
           <section class="nav-group">
               <label for="tabexample2">BMA Navigation</label>
               <ul class="nav-list">
-                  <li><a routerLink="bma" class="nav-link">Applications</a></li>
+                  <li><a routerLink="bma" class="nav-link active">Applications</a></li>
                   <li><a routerLink="tribe" class="nav-link">Tribe</a></li>
               </ul>
           </section>
       </section>
-    </nav>
+    </nav>-->
+    <clr-vertical-nav [clrVerticalNavCollapsible]="true" [(clrVerticalNavCollapsed)]="collapsed">
+      <a clrVerticalNavLink routerLink="./bma" routerLinkActive="active">
+          <clr-icon clrVerticalNavIcon shape="application" class="is-solid"></clr-icon>
+          Applications
+      </a>
+      <a clrVerticalNavLink routerLink="./tribe" routerLinkActive="active">
+          <clr-icon clrVerticalNavIcon shape="plugin" class="has-badge"></clr-icon>
+          Playground
+      </a>
+    </clr-vertical-nav>
+  
   </div>
 
 </clr-main-container>

@@ -4,7 +4,11 @@
 import { Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
+import { BmaComponent } from './bma/bma.component';
+import { TribeComponent } from './tribe/tribe.component';
 
-export const appRoutes: Routes = [
-  { path: '', component: AppComponent}
+const featureRoutes: Routes = [
+  { path: '', component: BmaComponent}
 ];
+
+export const appRoutes: Routes = [...featureRoutes];

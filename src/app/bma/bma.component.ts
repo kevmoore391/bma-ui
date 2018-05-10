@@ -4,7 +4,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'router-outlet',
+  selector: 'app-bma',
   templateUrl: './bma.component.html',
   styleUrls: ['./bma.component.scss']
 })

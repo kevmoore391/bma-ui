@@ -10,6 +10,9 @@ import { BmaComponent } from './bma.component';
   declarations: [
 	  BmaComponent
   ],
+  exports: [
+	  BmaComponent
+  ],
   providers: [
   ]
 })
