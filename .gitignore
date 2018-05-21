@@ -5,6 +5,8 @@
 /tmp
 /out-tsc
 /test_results
+/pacts
+/logs
 
 # dependencies
 /node_modules
@@ -34,7 +36,6 @@ npm-debug.log
 yarn-error.log
 testem.log
 /typings
-.scannerwork/
 
 # e2e
 /e2e/*.js

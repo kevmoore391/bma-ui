@@ -1,5 +1,5 @@
 name: bma-app
 instances: 1
-memory: 30M
+memory: 1G
 buildpack: dicf_staticfile_buildpack_latest
-path: ./src
+path: ./dist

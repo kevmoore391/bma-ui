@@ -1,1 +1,1 @@
-pipelinePlatformUI('titan-ui2-seed', 'PlatformUI')
+pipelinePlatformUI('bma-app', 'PlatformUI')
